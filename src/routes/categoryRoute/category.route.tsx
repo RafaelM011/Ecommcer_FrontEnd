@@ -5,7 +5,6 @@ import { type Product } from '../../app.types'
 
 const CategoryRoute: React.FC = (): JSX.Element => {
   const { state } = useLocation()
-
   return (
     <section className='flex flex-col gap-4'>
       <h1 className='text-4xl font-bold text-center my-8'> {state.title} </h1>

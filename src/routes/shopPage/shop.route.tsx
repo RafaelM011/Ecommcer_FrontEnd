@@ -5,7 +5,6 @@ import { CategoriesContext } from '../../context/categories/categories.context'
 
 const Shop: React.FC = (): JSX.Element => {
   const categories = useContext(CategoriesContext)
-
   return (
         <div className='flex flex-col flex-wrap gap-4'>
             {categories.map(category => {
